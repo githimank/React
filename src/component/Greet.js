@@ -5,7 +5,6 @@ function Greet(){
 }
 
 
-
 export default Greet 
 
 
