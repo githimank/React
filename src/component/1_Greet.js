@@ -1,13 +1,22 @@
 import React from "react";
 
-function Greet(){
-    return <h1>Hello HIMANK</h1>
-}
+// function Greet(){
+//     return <h1>Hello HIMANK</h1>
+// }
 
-export default Greet 
 
 
 // named export 
-// export const Greet =  ()=> <h1>Hello himank</h1>
+export const Greet = (props) => {
+    return (
+        <div>
+            <h1>Hello {props.name}</h1>
+            <p1>
+                {props.children}
+            </p1>
+        </div>
+    )
+}
 
 
+export default Greet 
