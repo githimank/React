@@ -7,12 +7,13 @@ import React from "react";
 
 
 // named export 
-export const Greet = (props) => {
+export const Greet = props => {
+    const {name, children} = props
     return (
         <div>
-            <h1>Hello {props.name}</h1>
+            <h1>Hello {name}</h1>
             <p1>
-                {props.children}
+                {children}
             </p1>
         </div>
     )
