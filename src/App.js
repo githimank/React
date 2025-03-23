@@ -21,10 +21,10 @@ function App() {
         <button>Action</button>
       </Welcome>
       <Hello/> */}
-      {/* // state example
-      <Message >onClick</Message> */}
-      // setstate counter app example
-      <Counter></Counter>
+      // state example
+      <Message >onClick</Message>
+      {/* // setstate counter app example
+      <Counter></Counter> */}
     </div>
   );
 }
