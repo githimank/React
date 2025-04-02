@@ -18,7 +18,8 @@ class Message extends Component {
         return (
             <div>
                 <h1>{message}</h1>
-                <button onClick={() => { this.changeMessage() }}>Subscribe</button>
+                {/* <button onClick={() => { this.changeMessage() }}>Subscribe</button> */} // 1 Approach using bind keyword
+                <button>Subscribe</button>
             </div>
         )
     }
