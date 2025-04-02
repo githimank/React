@@ -6,6 +6,8 @@ import Welcome from './component/2_Welcome'
 import Hello from './component/3_hello'
 import Message from './component/4_Message';
 import Counter from './component/5_Counter';
+import FunctionClick from './component/6_FuntionalClick';
+import ClassClick from './component/7_ClassClick';
 
 
 function App() {
@@ -21,10 +23,12 @@ function App() {
         <button>Action</button>
       </Welcome>
       <Hello/> */}
-      // state example
-      <Message >onClick</Message>
+      {/* // state example
+      <Message >onClick</Message> */}
       {/* // setstate counter app example
       <Counter></Counter> */}
+      <FunctionClick></FunctionClick>
+    <ClassClick></ClassClick>
     </div>
   );
 }
