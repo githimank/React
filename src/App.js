@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css'
-import Greet  from './component/1_Greet'
+import Greet from './component/1_Greet'
 // import {Greet}  from './component/Greet'; // named import
 import Welcome from './component/2_Welcome'
 import Hello from './component/3_hello'
@@ -8,6 +8,7 @@ import Message from './component/4_Message';
 import Counter from './component/5_Counter';
 import FunctionClick from './component/6_FuntionalClick';
 import ClassClick from './component/7_ClassClick';
+import BindingEvent from './component/8_BindingEvent';
 
 
 function App() {
@@ -27,8 +28,10 @@ function App() {
       <Message >onClick</Message> */}
       {/* // setstate counter app example
       <Counter></Counter> */}
+      {/* // event handling in function & class
       <FunctionClick></FunctionClick>
-    <ClassClick></ClassClick>
+    <ClassClick></ClassClick> */}
+      <BindingEvent>    </BindingEvent>
     </div>
   );
 }
