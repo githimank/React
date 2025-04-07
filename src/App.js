@@ -9,6 +9,7 @@ import Counter from './component/5_Counter';
 import FunctionClick from './component/6_FuntionalClick';
 import ClassClick from './component/7_ClassClick';
 import BindingEvent from './component/8_BindingEvent';
+import ParentComponent from './component/9.1_ParentComponent';
 
 
 function App() {
@@ -31,7 +32,10 @@ function App() {
       {/* // event handling in function & class
       <FunctionClick></FunctionClick>
     <ClassClick></ClassClick> */}
-      <BindingEvent>    </BindingEvent>
+      {  /*  // bind event handling in class
+        <BindingEvent>    </BindingEvent>*/}
+      <ParentComponent></ParentComponent>
+
     </div>
   );
 }
