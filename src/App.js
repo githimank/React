@@ -10,6 +10,7 @@ import FunctionClick from './component/6_FuntionalClick';
 import ClassClick from './component/7_ClassClick';
 import BindingEvent from './component/8_BindingEvent';
 import ParentComponent from './component/9.1_ParentComponent';
+import UserGreeting from './component/10_UserGreeting';
 
 
 function App() {
@@ -31,10 +32,12 @@ function App() {
       <Counter></Counter> */}
       {/* // event handling in function & class
       <FunctionClick></FunctionClick>
-    <ClassClick></ClassClick> */}
+      <ClassClick></ClassClick> */}
       {  /*  // bind event handling in class
-        <BindingEvent>    </BindingEvent>*/}
-      <ParentComponent></ParentComponent>
+      <BindingEvent>    </BindingEvent>*/}
+      {  /* // method as props from child to parent
+      <ParentComponent></ParentComponent> */}
+      <UserGreeting></UserGreeting>
 
     </div>
   );
