@@ -11,6 +11,8 @@ import ClassClick from './component/7_ClassClick';
 import BindingEvent from './component/8_BindingEvent';
 import ParentComponent from './component/9.1_ParentComponent';
 import UserGreeting from './component/10_UserGreeting';
+import ListRendering from './component/11_ListRendering';
+import NameList from './component/11.1_NameList';
 
 
 function App() {
@@ -37,8 +39,10 @@ function App() {
       <BindingEvent>    </BindingEvent>*/}
       {  /* // method as props from child to parent
       <ParentComponent></ParentComponent> */}
-      <UserGreeting></UserGreeting>
-
+      {/* // conditional rendering
+      // <UserGreeting></UserGreeting> */}
+      {/* <ListRendering></ListRendering> */}
+      <NameList></NameList>
     </div>
   );
 }
