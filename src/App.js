@@ -41,8 +41,8 @@ function App() {
       <ParentComponent></ParentComponent> */}
       {/* // conditional rendering
       // <UserGreeting></UserGreeting> */}
-      {/* <ListRendering></ListRendering> */}
-      <NameList></NameList>
+      <ListRendering></ListRendering>
+      {/* <NameList></NameList> */}
     </div>
   );
 }
