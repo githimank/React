@@ -13,6 +13,11 @@ import ParentComponent from './component/9.1_ParentComponent';
 import UserGreeting from './component/10_UserGreeting';
 import ListRendering from './component/11_ListRendering';
 import NameList from './component/11.1_NameList';
+import MyStyleSheet from './component/12_MyStyleSheet';
+import InlineStyle from './style/inlineStyle';
+import './appStyle.css'
+import styless from './appStyle.module.css'
+
 
 
 function App() {
@@ -41,8 +46,16 @@ function App() {
       <ParentComponent></ParentComponent> */}
       {/* // conditional rendering
       // <UserGreeting></UserGreeting> */}
-      <ListRendering></ListRendering>
-      {/* <NameList></NameList> */}
+      {/* <ListRendering></ListRendering>
+      // list rendering
+      <NameList></NameList> */}
+      // style sheet
+      <MyStyleSheet primary={true} ></MyStyleSheet>
+      //Inline style
+      <InlineStyle></InlineStyle>
+      // css module
+      <h1 className={'error'}>error</h1>
+      <h1 className={styless.success}>Success</h1>
     </div>
   );
 }
