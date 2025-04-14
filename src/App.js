@@ -14,6 +14,7 @@ import UserGreeting from './component/10_UserGreeting';
 import ListRendering from './component/11_ListRendering';
 import NameList from './component/11.1_NameList';
 import MyStyleSheet from './component/12_MyStyleSheet';
+import InlineStyle from './style/inlineStyle';
 
 
 function App() {
@@ -47,6 +48,8 @@ function App() {
       <NameList></NameList> */}
       // style sheet
       <MyStyleSheet primary={true} ></MyStyleSheet>
+      //Inline style
+      <InlineStyle></InlineStyle>
     </div>
   );
 }
