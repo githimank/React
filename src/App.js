@@ -17,6 +17,7 @@ import MyStyleSheet from './component/12_MyStyleSheet';
 import InlineStyle from './style/inlineStyle';
 import './appStyle.css'
 import styless from './appStyle.module.css'
+import Form from './component/13_Form';
 
 
 
@@ -49,13 +50,15 @@ function App() {
       {/* <ListRendering></ListRendering>
       // list rendering
       <NameList></NameList> */}
-      // style sheet
+      {/* // style sheet
       <MyStyleSheet primary={true} ></MyStyleSheet>
       //Inline style
       <InlineStyle></InlineStyle>
       // css module
-      <h1 className={'error'}>error</h1>
-      <h1 className={styless.success}>Success</h1>
+       <h1 className={'error'}>error</h1> 
+      <h1 className={styless.success}>Success</h1> */}
+      {/* //Form */}
+      <Form></Form>
     </div>
   );
 }
