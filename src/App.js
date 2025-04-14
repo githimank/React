@@ -15,6 +15,9 @@ import ListRendering from './component/11_ListRendering';
 import NameList from './component/11.1_NameList';
 import MyStyleSheet from './component/12_MyStyleSheet';
 import InlineStyle from './style/inlineStyle';
+import './appStyle.css'
+import styless from './appStyle.module.css'
+
 
 
 function App() {
@@ -50,6 +53,9 @@ function App() {
       <MyStyleSheet primary={true} ></MyStyleSheet>
       //Inline style
       <InlineStyle></InlineStyle>
+      // css module
+      <h1 className={'error'}>error</h1>
+      <h1 className={styless.success}>Success</h1>
     </div>
   );
 }
