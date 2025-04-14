@@ -13,6 +13,7 @@ import ParentComponent from './component/9.1_ParentComponent';
 import UserGreeting from './component/10_UserGreeting';
 import ListRendering from './component/11_ListRendering';
 import NameList from './component/11.1_NameList';
+import MyStyleSheet from './component/12_MyStyleSheet';
 
 
 function App() {
@@ -41,8 +42,11 @@ function App() {
       <ParentComponent></ParentComponent> */}
       {/* // conditional rendering
       // <UserGreeting></UserGreeting> */}
-      <ListRendering></ListRendering>
-      {/* <NameList></NameList> */}
+      {/* <ListRendering></ListRendering>
+      // list rendering
+      <NameList></NameList> */}
+      // style sheet
+      <MyStyleSheet primary={true} ></MyStyleSheet>
     </div>
   );
 }
